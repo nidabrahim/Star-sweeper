@@ -1,0 +1,4 @@
+E:\Projects\Tests\StarSweeper\Game\bin\Debug\Game.dll
+E:\Projects\Tests\StarSweeper\Game\bin\Debug\Game.pdb
+E:\Projects\Tests\StarSweeper\Game\obj\Debug\Game.dll
+E:\Projects\Tests\StarSweeper\Game\obj\Debug\Game.pdb
