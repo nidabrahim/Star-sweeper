@@ -19,8 +19,8 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
                 NumberPawnMvt2 = Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt2"]),
                 NumberPawnMvt3 = Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt3"]),
                 NumberPawnMvt4 = Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt4"]),
-                NumberPawn = Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt2"]) 
-                            + Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt3"]) 
+                NumberPawn = Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt2"])
+                            + Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt3"])
                             + Convert.ToInt32(ConfigurationManager.AppSettings["NumberPawnMvt4"])
             };
 
@@ -39,22 +39,23 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
             tour[1] = 0;
             do
             {
-                Console.Clear();
+                //Console.Clear();
                 Console.WriteLine("(Type 'exit' to leave the game.)");
                 Console.WriteLine();
-                grid.Draw(tourPlayer, tour[tourPlayer]);
+                currentGame.updatePlayerTour(tourPlayer);
+                grid.Draw(tourPlayer);
                 Console.WriteLine();
                 Console.WriteLine();
 
-                Console.WriteLine("[PLAYER " + (tourPlayer+1) + "]");
-                Console.Write("Enter coordinates to move Pawn"+ tour[tourPlayer] + " to: ");
+                Console.WriteLine("[PLAYER " + (tourPlayer + 1) + "]");
+                Console.Write("Enter coordinates to move Pawn" + tour[tourPlayer] + " to: ");
                 string input = Console.ReadLine();
                 shouldExit = !String.IsNullOrWhiteSpace(input) && input.ToLower() == _exitCode;
 
-                 if (!shouldExit && CoordinateConverter.TryParse(input, out MapCoordinates destination))
+                if (!shouldExit && CoordinateConverter.TryParse(input, out MapCoordinates destination))
                 {
-              
-                    MoveResult result = currentGame.MovePawnTo(destination, tourPlayer, tour[tourPlayer]);
+
+                    MoveResult result = currentGame.MovePawnTo(destination);
                     switch (result)
                     {
                         case MoveResult.Illegal:
@@ -82,8 +83,14 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
                         Console.ReadKey();
                     }
                 }
-            } 
-            while (!shouldExit);
+            }
+            while (!shouldExit && !currentGame.CurrentPlayer.isFailed());
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("BRAVO Player " + tourPlayer);
+            Console.ReadKey();
+
         }
     }
 }

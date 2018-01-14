@@ -35,13 +35,13 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
         /// Draws the map to the console.
         /// </summary>
         /// <exception cref="InvalidOperationException">Thrown if the map wasn't initialized.</exception>
-        public void Draw(int iPlayer, int iPawn)
+        public void Draw(int iPlayer)
         {
             if (_gameState?.Map == null) { throw new InvalidOperationException("Map needs to be initialized."); }
 
-            Pawn p;
-            if (iPlayer == 0) p = _gameState.Player1.Piece[iPawn];
-            else p = _gameState.Player2.Piece[iPawn];
+            Pawn p = _gameState.CurrentPlayer.getCurrentPawn();
+            Console.WriteLine("Location : " + CoordinateConverter.XToString(p.Location.X) + CoordinateConverter.YToString(p.Location.Y));
+
 
             Console.WriteLine(_headerRow);
 

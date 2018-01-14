@@ -9,11 +9,18 @@ namespace Isima.CSharp.StarSweeper.GameEngine
     public class Pawn
     {
         private int _id;
+        private Boolean _isVisited;
 
         public int Id
         {
             get { return _id; }
             set { _id = value; }
+        }
+
+        public Boolean IsVisited
+        {
+            get { return _isVisited; }
+            set { _isVisited = value; }
         }
 
         private int _movement;
@@ -24,7 +31,7 @@ namespace Isima.CSharp.StarSweeper.GameEngine
         public int Movement
         {
             get { return _movement; }
-            set { _movement = value;}
+            set { _movement = value; }
         }
 
         /// <summary>
@@ -39,6 +46,7 @@ namespace Isima.CSharp.StarSweeper.GameEngine
         public Pawn(int movement)
         {
             _movement = movement;
+            IsVisited = false;
         }
 
         /// <summary>
@@ -76,11 +84,17 @@ namespace Isima.CSharp.StarSweeper.GameEngine
                     if (GetDistanceBetween(piece.Location, target) <= piece.Movement)
                     {
                         results.Add(target);
-                    }                     
+                    }
                 }
             }
 
             return results;
+        }
+
+        public Boolean equals(int x, int y)
+        {
+
+            return (this.Location.X == x) && (this.Location.Y == y);
         }
     }
 }
