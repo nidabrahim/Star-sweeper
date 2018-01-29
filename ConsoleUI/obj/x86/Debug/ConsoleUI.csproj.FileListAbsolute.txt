@@ -28,3 +28,11 @@ C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\ConsoleUI\bin
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\ConsoleUI\bin\Debug\ConsoleUI.pdb
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\ConsoleUI\bin\Debug\Game.dll
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\ConsoleUI\bin\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\bin\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\bin\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\obj\x86\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb

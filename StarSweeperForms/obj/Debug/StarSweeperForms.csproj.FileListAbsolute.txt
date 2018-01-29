@@ -1,0 +1,12 @@
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.Cellule.resources
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.Grille.resources
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.Properties.Resources.resources
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.csproj.GenerateResource.Cache
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\bin\Debug\StarSweeperForms.exe.config
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\bin\Debug\StarSweeperForms.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\bin\Debug\StarSweeperForms.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\bin\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\bin\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.csprojResolveAssemblyReference.cache
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\StarSweeperForms\obj\Debug\StarSweeperForms.pdb

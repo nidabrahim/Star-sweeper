@@ -37,7 +37,7 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
         /// <exception cref="InvalidOperationException">Thrown if the map wasn't initialized.</exception>
         public void Draw(int iPlayer)
         {
-            if (_gameState?.Map == null) { throw new InvalidOperationException("Map needs to be initialized."); }
+            if (_gameState.Map == null) { throw new InvalidOperationException("Map needs to be initialized."); }
 
             Pawn p = _gameState.CurrentPlayer.getCurrentPawn();
             Console.WriteLine("Location : " + CoordinateConverter.XToString(p.Location.X) + CoordinateConverter.YToString(p.Location.Y));
@@ -142,7 +142,7 @@ namespace Isima.CSharp.StarSweeper.ConsoleUI
 
         private void SetHeaderRow()
         {
-            if (_gameState?.Map == null) { throw new InvalidOperationException("Map needs to be initialized."); }
+            if (_gameState.Map == null) { throw new InvalidOperationException("Map needs to be initialized."); }
 
             StringBuilder builder = new StringBuilder();
             builder.Append("   ");

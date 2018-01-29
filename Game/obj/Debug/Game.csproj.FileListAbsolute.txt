@@ -1,0 +1,9 @@
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\ConsoleUI.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\StarSweeperForms.exe
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\ConsoleUI.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\bin\Debug\StarSweeperForms.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\obj\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\Game\obj\Debug\Game.pdb

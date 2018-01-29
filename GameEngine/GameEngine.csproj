@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Game.cs" />
     <Compile Include="GameMap.cs" />
+    <Compile Include="IGame.cs" />
     <Compile Include="MapCoordinates.cs" />
     <Compile Include="GameParameters.cs" />
     <Compile Include="MapSector.cs" />

@@ -12,7 +12,11 @@ namespace Isima.CSharp.StarSweeper.GameEngine
         /// </summary>
         public int MapSize { get; set; }
 
+        public GameParameters(){
+
+        }
         /// <summary>
+
         /// Gets or sets the number of squares pawns can move with a single action.
         /// </summary>
         public int PawnMovementRange { get; set; }
@@ -29,15 +33,20 @@ namespace Isima.CSharp.StarSweeper.GameEngine
 
         
 
-        public static GameParameters Default { get; } = new GameParameters
-                                                            {   MapSize = 10,
-                                                                PawnMovementRange = 2,
-                                                                NumberPlayers = 1,
-                                                                NumberPawnMvt2 = 1,
-                                                                NumberPawnMvt3 = 0,
-                                                                NumberPawnMvt4 = 0,
-                                                                NumberPawn = 1
-                                                             };
+        public static GameParameters Default {
+            get
+            {
+                    GameParameters def = new GameParameters();
+                    def.MapSize = 10;
+                    def.PawnMovementRange = 2;
+                    def.NumberPlayers = 1;
+                    def.NumberPawnMvt2 = 1;
+                    def.NumberPawnMvt3 = 0;
+                    def.NumberPawnMvt4 = 0;
+                    def.NumberPawn = 1;
+                    return def;
+            }
+        } 
 
         
     }

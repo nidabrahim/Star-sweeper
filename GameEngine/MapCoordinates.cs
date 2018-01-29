@@ -5,7 +5,7 @@ namespace Isima.CSharp.StarSweeper.GameEngine
     /// <summary>
     /// Represents a set of cell coordinates on the game map.
     /// </summary>
-    public struct MapCoordinates
+    public struct MapCoordinates : IEquatable<MapCoordinates>
     {
         private int _x;
         private int _y;
@@ -52,7 +52,7 @@ namespace Isima.CSharp.StarSweeper.GameEngine
         /// </summary>
         /// <param name="obj">Object this instance is compared to.</param>
         /// <returns>True is the specified object is an instance of <see cref="MapCoordinates">MapCoordinates</see> and equals the value of this instance. False otherwise.</returns>
-        public override bool Equals(object obj)
+        /*public override bool Equals(object obj)
         {
             if (obj is MapCoordinates)
             {
@@ -60,6 +60,11 @@ namespace Isima.CSharp.StarSweeper.GameEngine
                 return other._x == _x && other._y == _y;
             }
             return false;
+        }*/
+
+        public bool Equals(MapCoordinates other)
+        {
+            return other._x == _x && other._y == _y;
         }
     }
 }

@@ -3,20 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Isima.CSharp.StarSweeper.GameEngine;
 namespace StarSweeperForms
 {
-    static class Program
+    public class Program : IGame
     {
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>
+      
         [STAThread]
-        static void Main()
+        public void start()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+        }
+
+        public static void Main(string[] args)
+        {
+           
         }
     }
 }

@@ -23,3 +23,7 @@ C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\GameEngine\ob
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\GameEngine\obj\Debug\GameEngine.csproj.CoreCompileInputs.cache
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\GameEngine\obj\Debug\Game.dll
 C:\Users\youssefNIDA\Documents\ISIMA\S2\C#\StarSweeper\StarSweeper\GameEngine\obj\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\GameEngine\bin\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\GameEngine\bin\Debug\Game.pdb
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\GameEngine\obj\Debug\Game.dll
+C:\Users\yonidabrah\Documents\csharp\Star-sweeper\GameEngine\obj\Debug\Game.pdb
